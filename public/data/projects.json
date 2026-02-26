@@ -1,0 +1,361 @@
+[
+  {
+    "name": "Juice",
+    "image": "http://googleusercontent.com/image_collection/image_retrieval/6154506578023359851",
+    "link": "https://apps.apple.com/us/app/juice-social-network/id1541460368",
+    "playStoreLink": "https://play.google.com/store/apps/details?id=com.juiceclub.live",
+    "appStoreLink": "https://apps.apple.com/us/app/juice-social-network/id1541460368",
+    "about": "Social network for digital communities. Focus: Gen-Z Social.",
+    "contribution": [
+      "Mobile Application Development"
+    ],
+    "builtWith": [
+      "iOS",
+      "Android",
+      "Social Networking"
+    ]
+  },
+  {
+    "name": "Oraan",
+    "image": "http://googleusercontent.com/image_collection/image_retrieval/2041823825108845356",
+    "link": "https://apps.apple.com/pk/app/oraan-digital-committee-app/id1479970322",
+    "playStoreLink": "https://play.google.com/store/apps/details?id=com.oraan.oraan",
+    "appStoreLink": "https://apps.apple.com/pk/app/oraan-digital-committee-app/id1479970322",
+    "about": "Digital committee (ROSCA) for group saving. Fintech (Pakistan).",
+    "contribution": [
+      "Mobile Application Development",
+      "Fintech"
+    ],
+    "builtWith": [
+      "iOS",
+      "Android",
+      "Fintech"
+    ]
+  },
+  {
+    "name": "FH Personal",
+    "image": "http://googleusercontent.com/image_collection/image_retrieval/11272869892454938471",
+    "link": "https://apps.apple.com/ae/app/fh-personal/id1527263529",
+    "playStoreLink": "https://play.google.com/store/apps/details?id=com.fh.payday",
+    "appStoreLink": "https://apps.apple.com/ae/app/fh-personal/id1527263529",
+    "about": "UAE personal banking and bill pay. UAE Banking.",
+    "contribution": [
+      "Mobile Banking Solutions"
+    ],
+    "builtWith": [
+      "iOS",
+      "Android",
+      "Banking"
+    ]
+  },
+  {
+    "name": "Finance House Biz",
+    "image": "http://googleusercontent.com/image_collection/image_retrieval/5972740695328537657",
+    "link": "https://apps.apple.com/ae/app/finance-house-business/id1571212853",
+    "playStoreLink": "https://play.google.com/store/apps/details?id=com.fh.financehousebusiness.android.app",
+    "appStoreLink": "https://apps.apple.com/ae/app/finance-house-business/id1571212853",
+    "about": "Corporate liquidity management for SME. UAE Corporate.",
+    "contribution": [
+      "Corporate Finance Solutions"
+    ],
+    "builtWith": [
+      "iOS",
+      "Android",
+      "Corporate Banking"
+    ]
+  },
+  {
+    "name": "Walaplus",
+    "image": "http://googleusercontent.com/image_collection/image_retrieval/11645781680576242070",
+    "link": "https://apps.apple.com/no/app/walaplus/id1034349338",
+    "playStoreLink": "https://play.google.com/store/apps/details?id=com.walaplus.app",
+    "appStoreLink": "https://apps.apple.com/no/app/walaplus/id1034349338",
+    "about": "Employee rewards and happiness platform. HR Tech (KSA).",
+    "contribution": [
+      "HR Tech Development"
+    ],
+    "builtWith": [
+      "iOS",
+      "Android",
+      "HR Tech"
+    ]
+  },
+  {
+    "name": "Wroom",
+    "image": "http://googleusercontent.com/image_collection/image_retrieval/11310721361606384186",
+    "link": "https://apps.apple.com/us/app/car-identifier-identify-car/id6504605948",
+    "playStoreLink": "https://play.google.com/store/apps/details?id=com.emresolmaz.caridentifier",
+    "appStoreLink": "https://apps.apple.com/us/app/car-identifier-identify-car/id6504605948",
+    "about": "AI car identifier using camera vision. AI/ML Recognition.",
+    "contribution": [
+      "AI Integration",
+      "Computer Vision"
+    ],
+    "builtWith": [
+      "iOS",
+      "Android",
+      "AI/ML"
+    ]
+  },
+  {
+    "name": "Schoolify",
+    "image": "http://googleusercontent.com/image_collection/image_retrieval/15804757747243577553",
+    "link": "https://apps.apple.com/us/app/schoolify-homework-tracker/id6711361448",
+    "playStoreLink": "https://play.google.com/store/apps/details?id=com.cihanakgul.schoolify",
+    "appStoreLink": "https://apps.apple.com/us/app/schoolify-homework-tracker/id6711361448",
+    "about": "AI tutor for solving homework. EdTech AI.",
+    "contribution": [
+      "EdTech Solutions"
+    ],
+    "builtWith": [
+      "iOS",
+      "Android",
+      "EdTech",
+      "AI"
+    ]
+  },
+  {
+    "name": "Awrad App",
+    "image": "http://googleusercontent.com/image_collection/image_retrieval/694317359160774366",
+    "link": "https://apps.apple.com/us/app/awrad-app/id6743214178",
+    "playStoreLink": "https://play.google.com/store/apps/details?id=com.awrad.android",
+    "appStoreLink": "https://apps.apple.com/us/app/awrad-app/id6743214178",
+    "about": "Islamic supplications and daily Dhikr. Lifestyle.",
+    "contribution": [
+      "Mobile App Development"
+    ],
+    "builtWith": [
+      "iOS",
+      "Android",
+      "Lifestyle"
+    ]
+  },
+  {
+    "name": "Tennis Tournament",
+    "image": "http://googleusercontent.com/image_collection/image_retrieval/14564006921505758973",
+    "link": "https://apps.apple.com/us/app/utr-sports/id1519232627",
+    "playStoreLink": "https://play.google.com/store/apps/details?id=eu.inlogic.tennis.open.tournament2019",
+    "appStoreLink": "https://apps.apple.com/us/app/utr-sports/id1519232627",
+    "about": "Tournament rankings and live scores. Sports Gaming.",
+    "contribution": [
+      "Real-time Data Integration"
+    ],
+    "builtWith": [
+      "iOS",
+      "Android",
+      "Sports Tech"
+    ]
+  },
+  {
+    "name": "eZRX Mobile",
+    "image": "http://googleusercontent.com/image_collection/image_retrieval/7645282757754086487",
+    "link": "https://apps.apple.com/sg/app/ezrx/id1477030448",
+    "playStoreLink": "https://play.google.com/store/apps/details?id=com.zuelligpharma.ezrxplus",
+    "appStoreLink": "https://apps.apple.com/sg/app/ezrx/id1477030448",
+    "about": "B2B pharma supply chain ordering. Healthcare B2B.",
+    "contribution": [
+      "B2B Solutions",
+      "Supply Chain"
+    ],
+    "builtWith": [
+      "iOS",
+      "Android",
+      "Healthcare"
+    ]
+  },
+  {
+    "name": "Dubai Smart Travel",
+    "image": "http://googleusercontent.com/image_collection/image_retrieval/17414267109108437371",
+    "link": "https://apps.apple.com/pk/app/dubai-smart-travel/id1629376846",
+    "playStoreLink": "https://play.google.com/store/apps/details?id=com.dubaismarttravel.app",
+    "appStoreLink": "https://apps.apple.com/pk/app/dubai-smart-travel/id1629376846",
+    "about": "Official transit guide for Dubai. Travel Tech.",
+    "contribution": [
+      "Travel Tech Solutions"
+    ],
+    "builtWith": [
+      "iOS",
+      "Android",
+      "Travel Tech"
+    ]
+  },
+  {
+    "name": "Slyde",
+    "image": "http://googleusercontent.com/image_collection/image_retrieval/2850590701466336432",
+    "link": "https://apps.apple.com/mt/app/slyde-meet-match-move-on/id1458911539",
+    "playStoreLink": "https://play.google.com/store/apps/details?id=com.slyde.app",
+    "appStoreLink": "https://apps.apple.com/mt/app/slyde-meet-match-move-on/id1458911539",
+    "about": "Swipe-based social matching app. Social Discovery.",
+    "contribution": [
+      "Social App Development"
+    ],
+    "builtWith": [
+      "iOS",
+      "Android",
+      "Social Discovery"
+    ]
+  },
+  {
+    "name": "Snapex",
+    "image": "http://googleusercontent.com/image_collection/image_retrieval/14264830885511714252",
+    "link": "https://apps.apple.com/ca/app/snapx/id1492080369",
+    "playStoreLink": "https://play.google.com/store/apps/details?id=com.acceo.snapx",
+    "appStoreLink": "https://apps.apple.com/ca/app/snapx/id1492080369",
+    "about": "AI expense and bookkeeping tool. Finance Utility.",
+    "contribution": [
+      "Fintech Solutions"
+    ],
+    "builtWith": [
+      "iOS",
+      "Android",
+      "Finance"
+    ]
+  },
+  {
+    "name": "Mobility",
+    "image": "http://googleusercontent.com/image_collection/image_retrieval/15804858900202634462",
+    "link": "https://apps.apple.com/it/app/mobility-company/id1220448393",
+    "playStoreLink": "https://play.google.com/store/apps/details?id=it.movesion.mobilitycompany",
+    "appStoreLink": "https://apps.apple.com/it/app/mobility-company/id1220448393",
+    "about": "Corporate commuting management. ESG Tech.",
+    "contribution": [
+      "ESG Solutions"
+    ],
+    "builtWith": [
+      "iOS",
+      "Android",
+      "ESG Tech"
+    ]
+  },
+  {
+    "name": "Scanability",
+    "image": "http://googleusercontent.com/image_collection/image_retrieval/16196942823673067954",
+    "link": "https://apps.apple.com/us/app/qr-barcode-scanner/id1184348181",
+    "playStoreLink": "https://play.google.com/store/apps/details?id=com.gamma.scan",
+    "appStoreLink": "https://apps.apple.com/us/app/qr-barcode-scanner/id1184348181",
+    "about": "Document scanner with OCR extraction. Productivity.",
+    "contribution": [
+      "OCR Integration"
+    ],
+    "builtWith": [
+      "iOS",
+      "Android",
+      "Productivity"
+    ]
+  },
+  {
+    "name": "Peach-e",
+    "image": "http://googleusercontent.com/image_collection/image_retrieval/1287961122540974850",
+    "link": "https://apps.apple.com/jp/app/peach/id1446698667",
+    "playStoreLink": "https://play.google.com/store/apps/details?id=com.flypeach.flypeach",
+    "appStoreLink": "https://apps.apple.com/jp/app/peach/id1446698667",
+    "about": "Airline booking and check-in tool. Airline Travel.",
+    "contribution": [
+      "Travel Solutions"
+    ],
+    "builtWith": [
+      "iOS",
+      "Android",
+      "Travel"
+    ]
+  },
+  {
+    "name": "Golfer",
+    "image": "http://googleusercontent.com/image_collection/image_retrieval/3046930331448033180",
+    "link": "https://apps.apple.com/au/app/golfer/id6443425712",
+    "playStoreLink": "https://play.google.com/store/apps/details?id=app.golfnetwork.golfer",
+    "appStoreLink": "https://apps.apple.com/au/app/golfer/id6443425712",
+    "about": "GPS scorecard for golf courses. Sports Tech.",
+    "contribution": [
+      "GPS Integration"
+    ],
+    "builtWith": [
+      "iOS",
+      "Android",
+      "Sports Tech"
+    ]
+  },
+  {
+    "name": "My Pitch",
+    "image": "http://googleusercontent.com/image_collection/image_retrieval/11283377426608066729",
+    "link": "https://apps.apple.com/ca/app/pitch/id366561888",
+    "playStoreLink": "https://play.google.com/store/apps/details?id=com.mypitch.app",
+    "appStoreLink": "https://apps.apple.com/ca/app/pitch/id366561888",
+    "about": "Sports venue and match finding. Sports Tech.",
+    "contribution": [
+      "Booking Systems"
+    ],
+    "builtWith": [
+      "iOS",
+      "Android",
+      "Sports Tech"
+    ]
+  },
+  {
+    "name": "Pabel",
+    "image": "http://googleusercontent.com/image_collection/image_retrieval/4041861365864794392",
+    "link": "https://apps.apple.com/pl/app/pabel/id6756615236",
+    "playStoreLink": "https://play.google.com/store/apps/details?id=ai.pabel.app",
+    "appStoreLink": "https://apps.apple.com/pl/app/pabel/id6756615236",
+    "about": "AI customer engagement platform. Automation.",
+    "contribution": [
+      "AI Integration"
+    ],
+    "builtWith": [
+      "iOS",
+      "Android",
+      "Automation"
+    ]
+  },
+  {
+    "name": "4RIZON Customer",
+    "image": "",
+    "link": "",
+    "playStoreLink": "",
+    "appStoreLink": "",
+    "about": "Service booking and management. Proprietary.",
+    "contribution": [
+      "Proprietary Enterprise Solution"
+    ],
+    "builtWith": [
+      "iOS",
+      "Android",
+      "Web",
+      "Proprietary"
+    ]
+  },
+  {
+    "name": "4RIZON Artist",
+    "image": "",
+    "link": "",
+    "playStoreLink": "",
+    "appStoreLink": "",
+    "about": "Talent management and profiles. Proprietary.",
+    "contribution": [
+      "Proprietary Enterprise Solution"
+    ],
+    "builtWith": [
+      "iOS",
+      "Android",
+      "Web",
+      "Proprietary"
+    ]
+  },
+  {
+    "name": "4RIZON Admin",
+    "image": "",
+    "link": "",
+    "playStoreLink": "",
+    "appStoreLink": "",
+    "about": "Backend admin dashboard. Proprietary.",
+    "contribution": [
+      "Proprietary Enterprise Solution"
+    ],
+    "builtWith": [
+      "iOS",
+      "Android",
+      "Web",
+      "Proprietary"
+    ]
+  }
+]
