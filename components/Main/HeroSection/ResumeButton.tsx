@@ -7,7 +7,7 @@ const ResumeButton = () => {
       className={`flex items-center justify-center rounded-md px-5 w-fit h-11 bg-buttonBg  hover:bg-cyan_dark duration-300 group cursor-pointer`}
     >
       <Link
-        href={`https://drive.google.com/file/d/1zXEo1KD-hLUEhDmtkNVcoY196So_qsWg/view?usp=sharing`}
+        href={`https://drive.google.com/file/d/1k2zxRTrVIFK9JSo1tg6REfruVdYWQcDE/view?usp=sharing`}
         target="_blank"
         rel="noreferrer"
       >
