@@ -2,8 +2,12 @@
 const nextConfig = {
   reactStrictMode: true,
   swcMinify: true,
-  images: {
-    domains: ["googleusercontent.com"],
+  async redirects() {
+    return [
+      { source: "/about", destination: "/#about", permanent: true },
+      { source: "/projects", destination: "/#work", permanent: true },
+      { source: "/contactme", destination: "/#contact", permanent: true },
+    ]
   },
 }
 

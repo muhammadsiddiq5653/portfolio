@@ -3,12 +3,12 @@ import Document, { Html, Head, Main, NextScript } from 'next/document'
 class MyDocument extends Document {
   render() {
     return (
-      <Html>
+      <Html lang="en">
         <Head>
           {/* Google Analytics Script */}
           <script
             async
-            src="https://www.googletagmanager.com/gtag/js?id=YOUR_GOOGLE_ANALYTICS_ID"
+            src="https://www.googletagmanager.com/gtag/js?id=G-RFYJN6HKK9"
           />
           <script
             dangerouslySetInnerHTML={{
