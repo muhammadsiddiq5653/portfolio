@@ -18,6 +18,33 @@ const label = (s: string) =>
     .replace("typescript", "TypeScript")
     .replace("sqlite", "SQLite")
     .replace("github", "GitHub")
+    .replace(/(^|\s)[a-z]/g, (c) => c.toUpperCase())
+
+/** Brand colour behind each logo; the SVGs themselves are white. */
+const BRAND: Record<string, string> = {
+  flutter: "#02569B",
+  dart: "#0175C2",
+  kotlin: "#7F52FF",
+  java: "#E76F00",
+  android: "#2BA866",
+  "react-native": "#149ECA",
+  react: "#149ECA",
+  nextjs: "#000000",
+  typescript: "#3178C6",
+  javascript: "#C9A800",
+  nodejs: "#5FA04E",
+  nestjs: "#E0234E",
+  graphql: "#E10098",
+  firebase: "#F59E0B",
+  postgresql: "#336791",
+  mongodb: "#47A248",
+  redis: "#DC382D",
+  sqlite: "#003B57",
+  tailwindcss: "#0F172A",
+  figma: "#F24E1E",
+  git: "#F05032",
+  github: "#181717",
+}
 
 /** A row that drifts constantly and speeds up (or reverses) with scroll velocity. */
 function VelocityRow({ items, base }: { items: string[]; base: number }) {
@@ -50,12 +77,15 @@ function VelocityRow({ items, base }: { items: string[]; base: number }) {
             key={i}
             className="group flex shrink-0 items-center gap-4 rounded-full border border-line/10 bg-paper2/60 py-3 pl-3 pr-7 transition-colors duration-500 hover:border-accent hover:bg-accent/10"
           >
-            <span className="relative grid h-11 w-11 place-items-center rounded-full bg-white shadow-sm">
+            <span
+              className="relative grid h-11 w-11 place-items-center rounded-full shadow-sm ring-1 ring-white/10 transition-transform duration-500 group-hover:rotate-[360deg]"
+              style={{ background: BRAND[t] ?? "#141311" }}
+            >
               <span className="relative h-6 w-6">
                 <Image src={`/images/${t}.svg`} alt="" fill sizes="24px" />
               </span>
             </span>
-            <span className="whitespace-nowrap font-serif text-3xl capitalize md:text-4xl">{label(t)}</span>
+            <span className="whitespace-nowrap font-serif text-3xl md:text-4xl">{label(t)}</span>
           </div>
         ))}
       </m.div>
