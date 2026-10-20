@@ -32,7 +32,7 @@ export default function Markets() {
   }).length : 0
 
   return (
-    <section className="relative overflow-hidden bg-night px-5 py-28 text-[#F0ECE4] md:px-8 md:py-40">
+    <section id="markets" className="relative overflow-hidden bg-night px-5 py-28 text-[#F0ECE4] md:px-8 md:py-40">
       <div className="pointer-events-none absolute inset-0 opacity-40 [background-image:radial-gradient(rgb(255_255_255/0.12)_1px,transparent_1px)] [background-size:22px_22px]" />
       <div className="relative mx-auto max-w-[1400px]">
         <div className="grid gap-10 lg:grid-cols-[1fr_1fr] lg:items-end">

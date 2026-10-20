@@ -98,7 +98,7 @@ export default function Work() {
         </div>
       </section>
 
-      <section ref={ref} className="relative" style={{ height: `${N * 100}svh` }}>
+      <section ref={ref} id="work-reel" className="relative" style={{ height: `${N * 100}svh` }}>
         <div className="sticky top-0 h-[100svh] overflow-hidden">
           {/* accent wash */}
           <m.div

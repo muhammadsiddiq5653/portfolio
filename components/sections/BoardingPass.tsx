@@ -93,7 +93,7 @@ export default function BoardingPass() {
   }
 
   return (
-    <section className="relative overflow-hidden px-5 py-28 md:px-8 md:py-40">
+    <section id="boarding" className="relative overflow-hidden px-5 py-28 md:px-8 md:py-40">
       <div className="pointer-events-none absolute left-1/2 top-1/2 h-[600px] w-[1000px] -translate-x-1/2 -translate-y-1/2 rounded-full bg-accent/10 blur-[120px]" />
       <div className="relative mx-auto grid max-w-[1400px] items-center gap-16 lg:grid-cols-[0.8fr_1.2fr]">
         <div>

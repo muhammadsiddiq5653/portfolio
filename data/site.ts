@@ -287,3 +287,76 @@ export function tzOffset(tz: string, date = new Date()) {
   const asUTC = Date.UTC(get("year"), get("month") - 1, get("day"), get("hour"), get("minute"))
   return Math.round((asUTC - date.getTime()) / 60000)
 }
+
+export type TourStep = {
+  /** Section to fly to. `progress` (0–1) targets a point inside a pinned section. */
+  target: { sel: string; progress?: number; offset?: number }
+  chapter: string
+  caption: string
+}
+
+const reel = (i: number) => ({ sel: "#work-reel", progress: (i + 0.5) / 8 })
+
+/** The guided tour script, in Siddiq's voice. Captions only, no audio. */
+export const TOUR: TourStep[] = [
+  {
+    target: { sel: "#top" },
+    chapter: "Boarding",
+    caption: "Hi, I'm Siddiq. This is your captain speaking. Sit back: this tour takes about ninety seconds.",
+  },
+  {
+    target: { sel: "#top", offset: 260 },
+    chapter: "Boarding",
+    caption: `I build the mobile apps people use to save, bank, travel and get paid. ${ALL_PROJECTS.length} shipped so far, live in ${Object.keys(MARKETS).length} countries.`,
+  },
+  {
+    target: reel(0),
+    chapter: "Selected work",
+    caption: "First stop, Karachi. Oraan turns the family savings committee into an app the whole family can trust.",
+  },
+  {
+    target: reel(1),
+    chapter: "Selected work",
+    caption: "Over to Dubai. FH Personal handles salaries, bills and transfers for people banking in the UAE.",
+  },
+  {
+    target: reel(4),
+    chapter: "Selected work",
+    caption: "Then Japan, where travellers check in and carry their boarding pass on their phone.",
+  },
+  {
+    target: reel(7),
+    chapter: "Selected work",
+    caption: "And one just for fun: point your camera at a car and the app tells you exactly what it is.",
+  },
+  {
+    target: { sel: "#markets", offset: 80 },
+    chapter: "Around the clock",
+    caption: "These clocks are live. Wherever my apps are used, it's always someone's morning.",
+  },
+  {
+    target: { sel: "#index", offset: 80 },
+    chapter: "The full list",
+    caption: "Here's everything I've shipped. Filter by sector, hover a row for a preview, click to open the store.",
+  },
+  {
+    target: { sel: "#stack", offset: 120 },
+    chapter: "Toolkit",
+    caption: "Under the hood: Flutter, Kotlin, Swift and React Native, with Node, NestJS and React behind them.",
+  },
+  {
+    target: { sel: "#process", offset: 40 },
+    chapter: "Working together",
+    caption: "Working with me is simple: a free first call, a written plan with a clear price, weekly builds, then the stores.",
+  },
+  {
+    target: { sel: "#boarding", offset: 80 },
+    chapter: "Your pass",
+    caption: "Last stop is your boarding pass, printed for your time zone. It shows the hours our working days overlap.",
+  },
+  {
+    target: { sel: "#contact" },
+    chapter: "Arrival",
+    caption: "Tear off the stub, or just write to me. Thanks for flying with me. I'd love to build what's next with you.",
+  },
+]

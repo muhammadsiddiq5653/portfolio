@@ -117,6 +117,17 @@ export default function Hero({ ready }: { ready: boolean }) {
               >
                 Get in touch
               </PillButton>
+              <button
+                onClick={() => window.dispatchEvent(new Event("tour:start"))}
+                data-cursor="Play"
+                className="group inline-flex h-12 items-center gap-3 rounded-full pl-2 pr-5 text-sm text-ink/80 transition-colors hover:text-ink"
+              >
+                <span className="relative grid h-8 w-8 place-items-center rounded-full border border-line/20 transition-colors duration-500 group-hover:border-accent group-hover:bg-accent group-hover:text-white">
+                  <span className="absolute inset-0 animate-ping rounded-full border border-accent/40" />
+                  <svg width="10" height="10" viewBox="0 0 10 10" fill="currentColor"><path d="M2 1l7 4-7 4z" /></svg>
+                </span>
+                Take the 90-second tour
+              </button>
             </m.div>
           </m.div>
 

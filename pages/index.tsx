@@ -13,6 +13,7 @@ import Work from "../components/sections/Work"
 import Cursor from "../components/ui/Cursor"
 import Nav from "../components/ui/Nav"
 import Preloader from "../components/ui/Preloader"
+import Tour from "../components/ui/Tour"
 
 const TITLE = "Muhammad Siddiq — Mobile & Full-Stack Engineer"
 const DESCRIPTION =
@@ -41,6 +42,7 @@ const Home: NextPage = () => {
       <Cursor />
       <div className="grain" aria-hidden />
       <Nav ready={ready} />
+      <Tour />
 
       <main>
         <Hero ready={ready} />

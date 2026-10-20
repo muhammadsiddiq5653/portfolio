@@ -118,3 +118,8 @@ html.lenis body {
     animation: none !important;
   }
 }
+
+@keyframes tourbar {
+  from { width: 0%; }
+  to { width: 100%; }
+}

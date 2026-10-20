@@ -9,7 +9,7 @@ export default function Process() {
   const line = useTransform(scrollYProgress, [0, 1], [0, 1])
 
   return (
-    <section className="relative px-5 py-28 md:px-8 md:py-40">
+    <section id="process" className="relative px-5 py-28 md:px-8 md:py-40">
       <div className="mx-auto grid max-w-[1400px] gap-16 lg:grid-cols-[1fr_1.2fr]">
         <div className="lg:sticky lg:top-32 lg:self-start">
           <Reveal>
